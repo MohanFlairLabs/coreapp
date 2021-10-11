@@ -1,0 +1,60 @@
+{
+  "name": "Wormhole",
+  "version": "0.1.0",
+  "summary": "Message passing between apps and extensions.",
+  "homepage": "https://github.com/vencewill/Wormhole",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vance Will": "vancewilll@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/vencewill/Wormhole.git",
+    "tag": "0.1.0"
+  },
+  "requires_arc": true,
+  "swift_versions": "5.3",
+  "default_subspecs": "Core",
+  "platforms": {
+    "ios": "10.0",
+    "osx": "10.10",
+    "watchos": "3.0"
+  },
+  "ios": {
+    "frameworks": [
+      "CoreServices",
+      "Foundation",
+      "WatchConnectivity"
+    ]
+  },
+  "osx": {
+    "frameworks": [
+      "CoreServices",
+      "Foundation"
+    ]
+  },
+  "watchos": {
+    "frameworks": [
+      "CoreServices",
+      "Foundation",
+      "WatchConnectivity"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/Wormhole/**/*.swift",
+      "osx": {
+        "exclude_files": [
+          "Sources/Wormhole/Transiting/SessionContextTransiting.swift",
+          "Sources/Wormhole/Transiting/SessionFileTransiting.swift",
+          "Sources/Wormhole/Transiting/SessionMessageTransiting.swift",
+          "Sources/Wormhole/Wormhole+WCSessionDelegate.swift"
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.3"
+}

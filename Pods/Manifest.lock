@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Starscream (3.1.1)
+  - SwiftPhoenixClient/Core (2.1.1)
+  - SwiftPhoenixClient/Starscream (2.1.1):
+    - Starscream (~> 3.1)
+    - SwiftPhoenixClient/Core
+  - Wormhole (0.1.0):
+    - Wormhole/Core (= 0.1.0)
+  - Wormhole/Core (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - SwiftPhoenixClient/Starscream (~> 2.0)
+  - Wormhole (from `https://github.com/vencewill/Wormhole.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Starscream
+    - SwiftPhoenixClient
+
+EXTERNAL SOURCES:
+  Wormhole:
+    :git: https://github.com/vencewill/Wormhole.git
+
+CHECKOUT OPTIONS:
+  Wormhole:
+    :commit: 783433b4271222424e5e43e8cf3a0398b0195d9c
+    :git: https://github.com/vencewill/Wormhole.git
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftPhoenixClient: 472e8efb36d7be9b4148740e457d50014845d217
+  Wormhole: 52b2af740c88e497dbe00c45d00fc52f36183301
+
+PODFILE CHECKSUM: 7c96afb7e3f7748792e415095747a910d6603e95
+
+COCOAPODS: 1.11.2
