@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |s|
 
 # 1
@@ -21,10 +20,10 @@ s.license = {
 s.author = { "Mohanasundaram" => "mohanasundaram.flairlabs.ext.idfy.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/MohanFlairLabs/coreapp"
+s.homepage = "https://gitlab.com/mohanasundaram.flairlabs"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/MohanFlairLabs/coreapp.git",
+s.source = { :git => "https://gitlab.com/mohanasundaram.flairlabs/core.git",
              :tag => "#{s.version}" }
 
 # 7
