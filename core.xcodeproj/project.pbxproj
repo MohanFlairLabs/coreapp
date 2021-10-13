@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1EFA7C51D0942FD151C1431A /* Pods_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6E96A56D40D1C89AE4CFCD /* Pods_core.framework */; };
 		8454BBF927144FCE007405A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BBF827144FCE007405A4 /* AppDelegate.swift */; };
-		8454BBFB27144FCE007405A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BBFA27144FCE007405A4 /* SceneDelegate.swift */; };
-		8454BBFD27144FCE007405A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BBFC27144FCE007405A4 /* ViewController.swift */; };
 		8454BC0027144FCE007405A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454BBFE27144FCE007405A4 /* Main.storyboard */; };
 		8454BC0327144FCE007405A4 /* core.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC0127144FCE007405A4 /* core.xcdatamodeld */; };
 		8454BC0527144FCF007405A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8454BC0427144FCF007405A4 /* Assets.xcassets */; };
@@ -18,26 +16,25 @@
 		8454BC1127145102007405A4 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 8454BC1027145102007405A4 /* Starscream */; };
 		8454BC14271451C5007405A4 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 8454BC13271451C5007405A4 /* WebRTC */; };
 		8454BC16271451E4007405A4 /* DALCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC15271451E4007405A4 /* DALCapture.swift */; };
-		8454BC1A271451F7007405A4 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC17271451F7007405A4 /* AppController.swift */; };
-		8454BC1B271451F7007405A4 /* InternetConnectivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC18271451F7007405A4 /* InternetConnectivityController.swift */; };
-		8454BC1C271451F7007405A4 /* SreverCommunicationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC19271451F7007405A4 /* SreverCommunicationHandler.swift */; };
-		8454BC2827145209007405A4 /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC1D27145209007405A4 /* ApplicationController.swift */; };
-		8454BC2A27145209007405A4 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC1F27145209007405A4 /* ProgressHUD.swift */; };
-		8454BC2B27145209007405A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8454BC2027145209007405A4 /* GoogleService-Info.plist */; };
-		8454BC2C27145209007405A4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC2127145209007405A4 /* Extension.swift */; };
-		8454BC2D27145209007405A4 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC2227145209007405A4 /* UserDefaultsExtension.swift */; };
-		8454BC2E27145209007405A4 /* CodableModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC2327145209007405A4 /* CodableModels.swift */; };
-		8454BC2F27145209007405A4 /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC2427145209007405A4 /* UIComponents.swift */; };
-		8454BC3027145209007405A4 /* EventLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC2527145209007405A4 /* EventLogController.swift */; };
-		8454BC3127145209007405A4 /* Codextended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC2627145209007405A4 /* Codextended.swift */; };
-		8454BC3227145209007405A4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC2727145209007405A4 /* LocationManager.swift */; };
-		8454BC352714521F007405A4 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8454BC332714521F007405A4 /* FooterView.xib */; };
-		8454BC362714521F007405A4 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC342714521F007405A4 /* FooterView.swift */; };
-		8454BC3927145233007405A4 /* InstructionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8454BC3727145233007405A4 /* InstructionView.xib */; };
-		8454BC3A27145233007405A4 /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC3827145233007405A4 /* InstructionView.swift */; };
-		8454BC3E27145247007405A4 /* SocketConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC3B27145247007405A4 /* SocketConfigure.swift */; };
-		8454BC3F27145247007405A4 /* MSSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC3C27145247007405A4 /* MSSocket.swift */; };
-		8454BC4027145247007405A4 /* ODSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC3D27145247007405A4 /* ODSocket.swift */; };
+		8454BC742716A46F007405A4 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC712716A46F007405A4 /* AppController.swift */; };
+		8454BC752716A46F007405A4 /* SreverCommunicationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC722716A46F007405A4 /* SreverCommunicationHandler.swift */; };
+		8454BC762716A46F007405A4 /* InternetConnectivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC732716A46F007405A4 /* InternetConnectivityController.swift */; };
+		8454BC812716A47B007405A4 /* CodableModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC772716A47B007405A4 /* CodableModels.swift */; };
+		8454BC822716A47B007405A4 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC782716A47B007405A4 /* UserDefaultsExtension.swift */; };
+		8454BC832716A47B007405A4 /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC792716A47B007405A4 /* ApplicationController.swift */; };
+		8454BC842716A47B007405A4 /* EventLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC7A2716A47B007405A4 /* EventLogController.swift */; };
+		8454BC852716A47B007405A4 /* Codextended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC7B2716A47B007405A4 /* Codextended.swift */; };
+		8454BC872716A47B007405A4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC7D2716A47B007405A4 /* LocationManager.swift */; };
+		8454BC882716A47B007405A4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC7E2716A47B007405A4 /* Extension.swift */; };
+		8454BC892716A47B007405A4 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC7F2716A47B007405A4 /* ProgressHUD.swift */; };
+		8454BC8A2716A47B007405A4 /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC802716A47B007405A4 /* UIComponents.swift */; };
+		8454BC8D2716A489007405A4 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8454BC8B2716A489007405A4 /* FooterView.xib */; };
+		8454BC8E2716A489007405A4 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC8C2716A489007405A4 /* FooterView.swift */; };
+		8454BC912716A492007405A4 /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC8F2716A492007405A4 /* InstructionView.swift */; };
+		8454BC922716A492007405A4 /* InstructionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8454BC902716A492007405A4 /* InstructionView.xib */; };
+		8454BC962716A49A007405A4 /* ODSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC932716A49A007405A4 /* ODSocket.swift */; };
+		8454BC972716A49A007405A4 /* SocketConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC942716A49A007405A4 /* SocketConfigure.swift */; };
+		8454BC982716A49A007405A4 /* MSSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BC952716A49A007405A4 /* MSSocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,34 +42,31 @@
 		80B5A8874C1C59E454BA45B0 /* Pods-core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-core.release.xcconfig"; path = "Target Support Files/Pods-core/Pods-core.release.xcconfig"; sourceTree = "<group>"; };
 		8454BBF527144FCE007405A4 /* core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = core.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8454BBF827144FCE007405A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8454BBFA27144FCE007405A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8454BBFC27144FCE007405A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8454BBFF27144FCE007405A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8454BC0227144FCE007405A4 /* core.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = core.xcdatamodel; sourceTree = "<group>"; };
 		8454BC0427144FCF007405A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8454BC0727144FCF007405A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8454BC0927144FCF007405A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8454BC15271451E4007405A4 /* DALCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DALCapture.swift; sourceTree = "<group>"; };
-		8454BC17271451F7007405A4 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
-		8454BC18271451F7007405A4 /* InternetConnectivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnectivityController.swift; sourceTree = "<group>"; };
-		8454BC19271451F7007405A4 /* SreverCommunicationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SreverCommunicationHandler.swift; sourceTree = "<group>"; };
-		8454BC1D27145209007405A4 /* ApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
-		8454BC1F27145209007405A4 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
-		8454BC2027145209007405A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8454BC2127145209007405A4 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		8454BC2227145209007405A4 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
-		8454BC2327145209007405A4 /* CodableModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableModels.swift; sourceTree = "<group>"; };
-		8454BC2427145209007405A4 /* UIComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
-		8454BC2527145209007405A4 /* EventLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLogController.swift; sourceTree = "<group>"; };
-		8454BC2627145209007405A4 /* Codextended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Codextended.swift; sourceTree = "<group>"; };
-		8454BC2727145209007405A4 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		8454BC332714521F007405A4 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
-		8454BC342714521F007405A4 /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
-		8454BC3727145233007405A4 /* InstructionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionView.xib; sourceTree = "<group>"; };
-		8454BC3827145233007405A4 /* InstructionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
-		8454BC3B27145247007405A4 /* SocketConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketConfigure.swift; sourceTree = "<group>"; };
-		8454BC3C27145247007405A4 /* MSSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSSocket.swift; sourceTree = "<group>"; };
-		8454BC3D27145247007405A4 /* ODSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODSocket.swift; sourceTree = "<group>"; };
+		8454BC712716A46F007405A4 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppController.swift; path = API/AppController.swift; sourceTree = "<group>"; };
+		8454BC722716A46F007405A4 /* SreverCommunicationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SreverCommunicationHandler.swift; path = API/SreverCommunicationHandler.swift; sourceTree = "<group>"; };
+		8454BC732716A46F007405A4 /* InternetConnectivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InternetConnectivityController.swift; path = API/InternetConnectivityController.swift; sourceTree = "<group>"; };
+		8454BC772716A47B007405A4 /* CodableModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodableModels.swift; path = Components/CodableModels.swift; sourceTree = "<group>"; };
+		8454BC782716A47B007405A4 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultsExtension.swift; path = Components/UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		8454BC792716A47B007405A4 /* ApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationController.swift; path = Components/ApplicationController.swift; sourceTree = "<group>"; };
+		8454BC7A2716A47B007405A4 /* EventLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventLogController.swift; path = Components/EventLogController.swift; sourceTree = "<group>"; };
+		8454BC7B2716A47B007405A4 /* Codextended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Codextended.swift; path = Components/Codextended.swift; sourceTree = "<group>"; };
+		8454BC7D2716A47B007405A4 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Components/LocationManager.swift; sourceTree = "<group>"; };
+		8454BC7E2716A47B007405A4 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = Components/Extension.swift; sourceTree = "<group>"; };
+		8454BC7F2716A47B007405A4 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressHUD.swift; path = Components/ProgressHUD.swift; sourceTree = "<group>"; };
+		8454BC802716A47B007405A4 /* UIComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIComponents.swift; path = Components/UIComponents.swift; sourceTree = "<group>"; };
+		8454BC8B2716A489007405A4 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FooterView.xib; path = FooterView/FooterView.xib; sourceTree = "<group>"; };
+		8454BC8C2716A489007405A4 /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FooterView.swift; path = FooterView/FooterView.swift; sourceTree = "<group>"; };
+		8454BC8F2716A492007405A4 /* InstructionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstructionView.swift; path = PopupView/InstructionView.swift; sourceTree = "<group>"; };
+		8454BC902716A492007405A4 /* InstructionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InstructionView.xib; path = PopupView/InstructionView.xib; sourceTree = "<group>"; };
+		8454BC932716A49A007405A4 /* ODSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ODSocket.swift; path = Sockets/ODSocket.swift; sourceTree = "<group>"; };
+		8454BC942716A49A007405A4 /* SocketConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketConfigure.swift; path = Sockets/SocketConfigure.swift; sourceTree = "<group>"; };
+		8454BC952716A49A007405A4 /* MSSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSSocket.swift; path = Sockets/MSSocket.swift; sourceTree = "<group>"; };
 		FF77E0DADBD2282F744DDBB1 /* Pods-core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-core.debug.xcconfig"; path = "Target Support Files/Pods-core/Pods-core.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,30 +114,27 @@
 		8454BBF727144FCE007405A4 /* core */ = {
 			isa = PBXGroup;
 			children = (
-				8454BC3C27145247007405A4 /* MSSocket.swift */,
-				8454BC3D27145247007405A4 /* ODSocket.swift */,
-				8454BC3B27145247007405A4 /* SocketConfigure.swift */,
-				8454BC3827145233007405A4 /* InstructionView.swift */,
-				8454BC3727145233007405A4 /* InstructionView.xib */,
-				8454BC342714521F007405A4 /* FooterView.swift */,
-				8454BC332714521F007405A4 /* FooterView.xib */,
-				8454BC1D27145209007405A4 /* ApplicationController.swift */,
-				8454BC2327145209007405A4 /* CodableModels.swift */,
-				8454BC2627145209007405A4 /* Codextended.swift */,
-				8454BC2527145209007405A4 /* EventLogController.swift */,
-				8454BC2127145209007405A4 /* Extension.swift */,
-				8454BC2027145209007405A4 /* GoogleService-Info.plist */,
-				8454BC2727145209007405A4 /* LocationManager.swift */,
-				8454BC1F27145209007405A4 /* ProgressHUD.swift */,
-				8454BC2427145209007405A4 /* UIComponents.swift */,
-				8454BC2227145209007405A4 /* UserDefaultsExtension.swift */,
-				8454BC17271451F7007405A4 /* AppController.swift */,
-				8454BC18271451F7007405A4 /* InternetConnectivityController.swift */,
-				8454BC19271451F7007405A4 /* SreverCommunicationHandler.swift */,
+				8454BC952716A49A007405A4 /* MSSocket.swift */,
+				8454BC932716A49A007405A4 /* ODSocket.swift */,
+				8454BC942716A49A007405A4 /* SocketConfigure.swift */,
+				8454BC8F2716A492007405A4 /* InstructionView.swift */,
+				8454BC902716A492007405A4 /* InstructionView.xib */,
+				8454BC8C2716A489007405A4 /* FooterView.swift */,
+				8454BC8B2716A489007405A4 /* FooterView.xib */,
+				8454BC792716A47B007405A4 /* ApplicationController.swift */,
+				8454BC772716A47B007405A4 /* CodableModels.swift */,
+				8454BC7B2716A47B007405A4 /* Codextended.swift */,
+				8454BC7A2716A47B007405A4 /* EventLogController.swift */,
+				8454BC7E2716A47B007405A4 /* Extension.swift */,
+				8454BC7D2716A47B007405A4 /* LocationManager.swift */,
+				8454BC7F2716A47B007405A4 /* ProgressHUD.swift */,
+				8454BC802716A47B007405A4 /* UIComponents.swift */,
+				8454BC782716A47B007405A4 /* UserDefaultsExtension.swift */,
+				8454BC712716A46F007405A4 /* AppController.swift */,
+				8454BC732716A46F007405A4 /* InternetConnectivityController.swift */,
+				8454BC722716A46F007405A4 /* SreverCommunicationHandler.swift */,
 				8454BC15271451E4007405A4 /* DALCapture.swift */,
 				8454BBF827144FCE007405A4 /* AppDelegate.swift */,
-				8454BBFA27144FCE007405A4 /* SceneDelegate.swift */,
-				8454BBFC27144FCE007405A4 /* ViewController.swift */,
 				8454BBFE27144FCE007405A4 /* Main.storyboard */,
 				8454BC0427144FCF007405A4 /* Assets.xcassets */,
 				8454BC0627144FCF007405A4 /* LaunchScreen.storyboard */,
@@ -229,11 +220,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8454BC0827144FCF007405A4 /* LaunchScreen.storyboard in Resources */,
-				8454BC2B27145209007405A4 /* GoogleService-Info.plist in Resources */,
 				8454BC0527144FCF007405A4 /* Assets.xcassets in Resources */,
-				8454BC352714521F007405A4 /* FooterView.xib in Resources */,
+				8454BC8D2716A489007405A4 /* FooterView.xib in Resources */,
 				8454BC0027144FCE007405A4 /* Main.storyboard in Resources */,
-				8454BC3927145233007405A4 /* InstructionView.xib in Resources */,
+				8454BC922716A492007405A4 /* InstructionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,28 +276,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8454BC2827145209007405A4 /* ApplicationController.swift in Sources */,
-				8454BBFD27144FCE007405A4 /* ViewController.swift in Sources */,
-				8454BC362714521F007405A4 /* FooterView.swift in Sources */,
+				8454BC832716A47B007405A4 /* ApplicationController.swift in Sources */,
+				8454BC752716A46F007405A4 /* SreverCommunicationHandler.swift in Sources */,
+				8454BC982716A49A007405A4 /* MSSocket.swift in Sources */,
+				8454BC972716A49A007405A4 /* SocketConfigure.swift in Sources */,
+				8454BC762716A46F007405A4 /* InternetConnectivityController.swift in Sources */,
+				8454BC842716A47B007405A4 /* EventLogController.swift in Sources */,
+				8454BC852716A47B007405A4 /* Codextended.swift in Sources */,
+				8454BC8E2716A489007405A4 /* FooterView.swift in Sources */,
+				8454BC822716A47B007405A4 /* UserDefaultsExtension.swift in Sources */,
+				8454BC962716A49A007405A4 /* ODSocket.swift in Sources */,
+				8454BC892716A47B007405A4 /* ProgressHUD.swift in Sources */,
 				8454BBF927144FCE007405A4 /* AppDelegate.swift in Sources */,
-				8454BC2C27145209007405A4 /* Extension.swift in Sources */,
-				8454BC4027145247007405A4 /* ODSocket.swift in Sources */,
-				8454BC2E27145209007405A4 /* CodableModels.swift in Sources */,
-				8454BC3E27145247007405A4 /* SocketConfigure.swift in Sources */,
 				8454BC0327144FCE007405A4 /* core.xcdatamodeld in Sources */,
-				8454BC2A27145209007405A4 /* ProgressHUD.swift in Sources */,
-				8454BC3A27145233007405A4 /* InstructionView.swift in Sources */,
-				8454BC3227145209007405A4 /* LocationManager.swift in Sources */,
-				8454BBFB27144FCE007405A4 /* SceneDelegate.swift in Sources */,
-				8454BC1C271451F7007405A4 /* SreverCommunicationHandler.swift in Sources */,
-				8454BC1B271451F7007405A4 /* InternetConnectivityController.swift in Sources */,
-				8454BC3027145209007405A4 /* EventLogController.swift in Sources */,
-				8454BC3F27145247007405A4 /* MSSocket.swift in Sources */,
+				8454BC912716A492007405A4 /* InstructionView.swift in Sources */,
+				8454BC872716A47B007405A4 /* LocationManager.swift in Sources */,
+				8454BC882716A47B007405A4 /* Extension.swift in Sources */,
+				8454BC812716A47B007405A4 /* CodableModels.swift in Sources */,
 				8454BC16271451E4007405A4 /* DALCapture.swift in Sources */,
-				8454BC3127145209007405A4 /* Codextended.swift in Sources */,
-				8454BC1A271451F7007405A4 /* AppController.swift in Sources */,
-				8454BC2F27145209007405A4 /* UIComponents.swift in Sources */,
-				8454BC2D27145209007405A4 /* UserDefaultsExtension.swift in Sources */,
+				8454BC8A2716A47B007405A4 /* UIComponents.swift in Sources */,
+				8454BC742716A46F007405A4 /* AppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
